@@ -15,10 +15,18 @@ export default function Home() {
         <div className="nav">
           <div>img</div>
           <ul>
-            <li>我的blog</li>
-            <li>兴趣爱好</li>
-            <li>生活感悟</li>
-            <li>关于自己</li>
+            <li>
+              <a>我的blog</a>
+            </li>
+            <li>
+              <a>兴趣爱好</a>
+            </li>
+            <li>
+              <a>生活感悟</a>
+            </li>
+            <li>
+              <a>关于自己</a>
+            </li>
           </ul>
         </div>
         <h4>h444</h4>
