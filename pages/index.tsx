@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-
 export default function Home() {
   return (
     <>
@@ -12,24 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className="nav">
-          <div>img</div>
-          <ul>
-            <li>
-              <a>我的blog</a>
-            </li>
-            <li>
-              <a>兴趣爱好</a>
-            </li>
-            <li>
-              <a>生活感悟</a>
-            </li>
-            <li>
-              <a>关于自己</a>
-            </li>
-          </ul>
-        </div>
-        <h4>h444</h4>
         <Image src={"/images/ban1.png"} width={100} height={100} alt="" />
       </main>
     </>
