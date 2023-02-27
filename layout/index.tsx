@@ -2,8 +2,8 @@ export default function Layout() {
   return (
     <div className="nav">
       <div className="left">
-        <img src="" />
-        <div>
+        <img src="/images/avatar.png" />
+        <div className="info">
           <h4>mia Qu</h4>
           <h5>a developer</h5>
           <p>快乐，努力，自由。</p>
@@ -11,7 +11,7 @@ export default function Layout() {
       </div>
       <div className="right">
         <p>主题</p>
-        <button>connect me</button>
+        <button className="btn">connect me</button>
       </div>
       {/* <ul>
         <li>

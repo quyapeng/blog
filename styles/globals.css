@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 10px 0 #ccc;
+  padding: 20px;
 }
 .nav ul {
   display: flex;
@@ -41,4 +42,39 @@ body {
 }
 .nav ul li a:hover {
   background-color: #f2f2f2;
+}
+.nav .left {
+  display: flex;
+  align-items: center;
+}
+.nav .left .info {
+  margin-left: 20px;
+}
+.nav .left img {
+  width: 80px;
+  height: 80px;
+}
+.nav .left .info h4 {
+  color: #333;
+  font-size: 16px;
+}
+.nav .left .info h5 {
+  color: #666;
+  font-size: 14px;
+}
+.nav .left p {
+  color: #999;
+  font-size: 12px;
+}
+.btn {
+  background-color: aquamarine;
+  border: none;
+  padding: 6px 12px;
+  line-height: 1;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  /* box-shadow: 0 0 0 0 black; */
+}
+.nav .right {
 }
