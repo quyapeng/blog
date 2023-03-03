@@ -26,7 +26,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 0 10px 0 #ccc;
+  box-shadow: 0 0 10px 0 #000;
   padding: 20px;
 }
 .nav ul {
@@ -67,7 +67,7 @@ body {
   font-size: 12px;
 }
 .btn {
-  background-color: aquamarine;
+  background-color: #ffc25c;
   border: none;
   padding: 6px 12px;
   line-height: 1;
