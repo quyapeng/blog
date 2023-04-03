@@ -58,11 +58,11 @@ body {
   height: 80px;
 }
 .nav .left .info h4 {
-  color: #333;
+  color: var(--color-white);
   font-size: 16px;
 }
 .nav .left .info h5 {
-  color: #666;
+  color: var(--color-light);
   font-size: 14px;
 }
 .nav .left p {
@@ -80,4 +80,13 @@ body {
   /* box-shadow: 0 0 0 0 black; */
 }
 .nav .right {
+}
+.nav-list li {
+  font-weight: bold;
+  float: left;
+  padding:10px 20px;
+  cursor: pointer;
+}
+.nav-list li:hover{
+  background-color: #171923;
 }

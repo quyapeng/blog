@@ -6,8 +6,14 @@ export default function Layout() {
         <div className="info">
           <h4>mia Qu</h4>
           <h5>a developer</h5>
-          <p>快乐，努力，自由。</p>
+          <p>happy，fight，freedom。</p>
         </div>
+      </div>
+      <div className="nav-list">
+        <li>index</li>
+        <li>blog</li>
+        <li>about</li>
+        <li>connect</li>
       </div>
       <div className="right">
         <p>主题</p>

@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Image src={"/images/banner.jpg"} width={1200} height={776} alt="" />
+        {/* <Image src={"/images/banner.jpg"} width={1200} height={776} alt="" /> */}
       </main>
     </>
   );
