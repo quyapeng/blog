@@ -29,7 +29,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 0 10px 0 #000;
+  box-shadow: 0 0 8px (#000, #e5e9ef);
   align-items: center;
 }
 .nav ul {
