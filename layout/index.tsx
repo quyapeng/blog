@@ -16,23 +16,9 @@ export default function Layout() {
         <li>connect</li>
       </div>
       <div className="right">
-        <p>主题</p>
+        <p>theme</p>
         <button className="btn">connect me</button>
       </div>
-      {/* <ul>
-        <li>
-          <a>blog</a>
-        </li>
-        <li>
-          <a>兴趣爱好</a>
-        </li>
-        <li>
-          <a>生活感悟</a>
-        </li>
-        <li>
-          <a>关于自己</a>
-        </li>
-      </ul> */}
     </div>
   );
 }
