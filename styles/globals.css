@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 10px 0 #000;
-  padding: 20px;
+  align-items: center;
 }
 .nav ul {
   display: flex;
@@ -49,6 +49,7 @@ body {
 .nav .left {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 .nav .left .info {
   margin-left: 20px;
@@ -62,11 +63,11 @@ body {
   font-size: 16px;
 }
 .nav .left .info h5 {
-  color: var(--color-light);
+  color: var(--color-white);
   font-size: 14px;
 }
 .nav .left p {
-  color: #999;
+  color: var(--color-light);
   font-size: 12px;
 }
 .btn {
@@ -80,13 +81,19 @@ body {
   /* box-shadow: 0 0 0 0 black; */
 }
 .nav .right {
+  padding: 20px;
+}
+.nav-list {
 }
 .nav-list li {
   font-weight: bold;
   float: left;
-  padding:10px 20px;
+  padding: 30px;
   cursor: pointer;
+  line-height: 1;
+  border-radius: 10px;
+  font-size: 16px;
 }
-.nav-list li:hover{
+.nav-list li:hover {
   background-color: #171923;
 }

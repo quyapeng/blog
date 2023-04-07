@@ -9,12 +9,12 @@ export default function Layout() {
           <p>happy，fight，freedom。</p>
         </div>
       </div>
-      <div className="nav-list">
+      <ul className="nav-list">
         <li>index</li>
         <li>blog</li>
         <li>about</li>
         <li>connect</li>
-      </div>
+      </ul>
       <div className="right">
         <p>theme</p>
         <button className="btn">connect me</button>
