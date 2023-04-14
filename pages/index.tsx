@@ -11,7 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/* <Image src={"/images/banner.jpg"} width={1200} height={776} alt="" /> */}
+        <div className={styles.flex_conent}>
+          <Image src={"/images/image.jpg"} width={387} height={252} alt="" />
+          <h4 className={styles.flex}>
+            Finally-a natural extension of your self.
+          </h4>
+        </div>
       </main>
     </>
   );
